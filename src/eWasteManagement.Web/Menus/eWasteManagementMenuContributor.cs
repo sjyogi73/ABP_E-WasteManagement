@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+using System.Threading.Tasks;
+using eWasteManagement.Permissions;
 using eWasteManagement.Localization;
 using eWasteManagement.MultiTenancy;
 using Volo.Abp.Identity.Web.Navigation;
@@ -45,5 +46,15 @@ public class eWasteManagementMenuContributor : IMenuContributor
 
         administration.SetSubItemOrder(IdentityMenuNames.GroupName, 2);
         administration.SetSubItemOrder(SettingManagementMenuNames.GroupName, 3);
+            if (await context.IsGrantedAsync(eWasteManagementPermissions.userDetail.Default))
+            {
+                context.Menu.AddItem(
+                    new ApplicationMenuItem(
+                        eWasteManagementMenus.userDetail,
+                        l["UserDetails"],
+                        url:"/UserDetail/userDetail",
+                        icon: "fas fa-users")
+                );
+            }
     }
 }

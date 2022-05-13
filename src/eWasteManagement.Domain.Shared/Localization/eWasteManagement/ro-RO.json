@@ -3,6 +3,23 @@
   "texts": {
     "Menu:Home": "Acasă",
     "Welcome": "Bun venit",
-    "LongWelcomeMessage": "Bun venit la aplicaţie. Acesta este un proiect de pornire bazat pe framework-ul ABP. Pentru mai multe informaţii, vizitaţi, visit abp.io."
+    "LongWelcomeMessage": "Bun venit la aplicaţie. Acesta este un proiect de pornire bazat pe framework-ul ABP. Pentru mai multe informaţii, vizitaţi, visit abp.io.",
+    "Permission:userDetail": "userDetail",
+    "Permission:Create": "Create",
+    "Permission:Update": "Update",
+    "Permission:Delete": "Delete",
+    "Menu:userDetail": "MenuuserDetail",
+    "userDetail": "userDetail",
+    "userDetailCustomerName": "userDetailCustomerName",
+    "userDetailGender": "userDetailGender",
+    "userDetailEmailId": "userDetailEmailId",
+    "userDetailDate": "userDetailDate",
+    "userDetailLocation": "userDetailLocation",
+    "userDetailType": "userDetailType",
+    "userDetailPhoneNo": "userDetailPhoneNo",
+    "CreateuserDetail": "CreateuserDetail",
+    "EdituserDetail": "EdituserDetail",
+    "userDetailDeletionConfirmationMessage": "Are you sure to delete the userDetail {0}?",
+    "SuccessfullyDeleted": "Successfully deleted"
   }
 }

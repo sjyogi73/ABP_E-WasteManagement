@@ -1,8 +1,25 @@
 {
- "culture": "fr",
- "texts": {
-  "Menu:Home": "Accueil",
-  "Welcome": "Bienvenue",
-  "LongWelcomeMessage": "Bienvenue dans l'application. Il s'agit d'un projet de démarrage basé sur le framework ABP. Pour plus d'informations, visitez abp.io."
- }
+  "culture": "fr",
+  "texts": {
+    "Menu:Home": "Accueil",
+    "Welcome": "Bienvenue",
+    "LongWelcomeMessage": "Bienvenue dans l'application. Il s'agit d'un projet de démarrage basé sur le framework ABP. Pour plus d'informations, visitez abp.io.",
+    "Permission:userDetail": "userDetail",
+    "Permission:Create": "Create",
+    "Permission:Update": "Update",
+    "Permission:Delete": "Delete",
+    "Menu:userDetail": "MenuuserDetail",
+    "userDetail": "userDetail",
+    "userDetailCustomerName": "userDetailCustomerName",
+    "userDetailGender": "userDetailGender",
+    "userDetailEmailId": "userDetailEmailId",
+    "userDetailDate": "userDetailDate",
+    "userDetailLocation": "userDetailLocation",
+    "userDetailType": "userDetailType",
+    "userDetailPhoneNo": "userDetailPhoneNo",
+    "CreateuserDetail": "CreateuserDetail",
+    "EdituserDetail": "EdituserDetail",
+    "userDetailDeletionConfirmationMessage": "Are you sure to delete the userDetail {0}?",
+    "SuccessfullyDeleted": "Successfully deleted"
+  }
 }

@@ -1,0 +1,48 @@
+@page
+@using eWasteManagement.Permissions
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Volo.Abp.AspNetCore.Mvc.UI.Layout
+@using eWasteManagement.Web.Pages.UserDetail.userDetail
+@using eWasteManagement.Localization
+@using eWasteManagement.Web.Menus
+@model IndexModel
+@inject IPageLayout PageLayout
+@inject IHtmlLocalizer<eWasteManagementResource> L
+@inject IAuthorizationService Authorization
+@{
+    PageLayout.Content.Title = L["userDetail"].Value;
+    PageLayout.Content.BreadCrumb.Add(L["Menu:userDetail"].Value);
+    PageLayout.Content.MenuItemName = eWasteManagementMenus.userDetail;
+}
+
+@section scripts
+{
+    <abp-script src="/Pages/UserDetail/userDetail/index.js" />
+}
+@section styles
+{
+    <abp-style src="/Pages/UserDetail/userDetail/index.css"/>
+}
+
+<abp-card>
+    <abp-card-header>
+        <abp-row>
+            <abp-column size-md="_6">
+                <abp-card-title>@L["userDetail"]</abp-card-title>
+            </abp-column>
+            <abp-column size-md="_6" class="text-end">
+			    @if (await Authorization.IsGrantedAsync(eWasteManagementPermissions.userDetail.Create))
+                {
+                <abp-button id="NewuserDetailButton" 
+                            text="@L["Add New"].Value"
+                            icon="plus"
+                            button-type="Primary" />
+                }
+            </abp-column>
+        </abp-row>
+    </abp-card-header>
+    <abp-card-body>
+        <abp-table striped-rows="true" id="userDetailTable" class="nowrap"/>
+    </abp-card-body>
+</abp-card>

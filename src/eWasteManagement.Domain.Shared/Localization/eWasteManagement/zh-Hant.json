@@ -1,8 +1,25 @@
 {
-    "culture": "zh-Hant",
-    "texts": {
-      "Menu:Home": "首頁",
-      "Welcome": "歡迎",
-      "LongWelcomeMessage": "歡迎來到此應用程式. 這是一個基於ABP框架的起始專案. 有關更多訊息, 請瀏覽 abp.io."
-    }
+  "culture": "zh-Hant",
+  "texts": {
+    "Menu:Home": "首頁",
+    "Welcome": "歡迎",
+    "LongWelcomeMessage": "歡迎來到此應用程式. 這是一個基於ABP框架的起始專案. 有關更多訊息, 請瀏覽 abp.io.",
+    "Permission:userDetail": "userDetail",
+    "Permission:Create": "Create",
+    "Permission:Update": "Update",
+    "Permission:Delete": "Delete",
+    "Menu:userDetail": "MenuuserDetail",
+    "userDetail": "userDetail",
+    "userDetailCustomerName": "userDetailCustomerName",
+    "userDetailGender": "userDetailGender",
+    "userDetailEmailId": "userDetailEmailId",
+    "userDetailDate": "userDetailDate",
+    "userDetailLocation": "userDetailLocation",
+    "userDetailType": "userDetailType",
+    "userDetailPhoneNo": "userDetailPhoneNo",
+    "CreateuserDetail": "CreateuserDetail",
+    "EdituserDetail": "EdituserDetail",
+    "userDetailDeletionConfirmationMessage": "Are you sure to delete the userDetail {0}?",
+    "SuccessfullyDeleted": "Successfully deleted"
   }
+}

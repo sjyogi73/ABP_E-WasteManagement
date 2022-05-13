@@ -3,6 +3,23 @@
   "texts": {
     "Menu:Home": "Home",
     "Welcome": "Welkom",
-    "LongWelcomeMessage": "Welkom bij de applicatie. Dit is een startup-project gebaseerd op het ABP-framework. Bezoek abp.io voor meer informatie."
+    "LongWelcomeMessage": "Welkom bij de applicatie. Dit is een startup-project gebaseerd op het ABP-framework. Bezoek abp.io voor meer informatie.",
+    "Permission:userDetail": "userDetail",
+    "Permission:Create": "Create",
+    "Permission:Update": "Update",
+    "Permission:Delete": "Delete",
+    "Menu:userDetail": "MenuuserDetail",
+    "userDetail": "userDetail",
+    "userDetailCustomerName": "userDetailCustomerName",
+    "userDetailGender": "userDetailGender",
+    "userDetailEmailId": "userDetailEmailId",
+    "userDetailDate": "userDetailDate",
+    "userDetailLocation": "userDetailLocation",
+    "userDetailType": "userDetailType",
+    "userDetailPhoneNo": "userDetailPhoneNo",
+    "CreateuserDetail": "CreateuserDetail",
+    "EdituserDetail": "EdituserDetail",
+    "userDetailDeletionConfirmationMessage": "Are you sure to delete the userDetail {0}?",
+    "SuccessfullyDeleted": "Successfully deleted"
   }
 }

@@ -3,6 +3,29 @@
   "texts": {
     "Menu:Home": "Home",
     "Welcome": "Welcome",
-    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information, visit abp.io."
+    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information, visit abp.io.",
+    "Permission:userDetail": "userDetail",
+    "Permission:Create": "Create",
+    "Permission:Update": "Update",
+    "Permission:Delete": "Delete",
+    "Menu:userDetail": "MenuuserDetail",
+    "userDetail": "userDetail",
+    "userDetailCustomerName": "userDetailCustomerName",
+    "userDetailGender": "userDetailGender",
+    "userDetailEmailId": "userDetailEmailId",
+    "userDetailDate": "userDetailDate",
+    "userDetailLocation": "userDetailLocation",
+    "userDetailType": "userDetailType",
+    "userDetailPhoneNo": "userDetailPhoneNo",
+    "CreateuserDetail": "CreateuserDetail",
+    "EdituserDetail": "EdituserDetail",
+    "userDetailDeletionConfirmationMessage": "Are you sure to delete the userDetail {0}?",
+    "SuccessfullyDeleted": "Successfully deleted",
+    "Enum:sex:0": "Male",
+    "Enum:sex:1": "Female",
+    "Enum:sex:2": "Others",
+    "Enum:Types:0": "Working e-Waste",
+    "Enum:Types:1": "Cottage industry",
+    "Enum:Types:2": "Scrap e-Waste"
   }
 }

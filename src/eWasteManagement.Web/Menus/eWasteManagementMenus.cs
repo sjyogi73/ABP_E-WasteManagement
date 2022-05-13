@@ -1,4 +1,4 @@
-﻿namespace eWasteManagement.Web.Menus;
+namespace eWasteManagement.Web.Menus;
 
 public class eWasteManagementMenus
 {
@@ -7,4 +7,5 @@ public class eWasteManagementMenus
 
     //Add your menu items here...
 
+        public const string userDetail = Prefix + ".userDetail";
 }

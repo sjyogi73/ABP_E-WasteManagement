@@ -3,6 +3,23 @@
   "texts": {
     "Menu:Home": "Inicio",
     "Welcome": "Bienvenido",
-    "LongWelcomeMessage": "Bienvenido a la aplicación, este es un proyecto base basado en el framework ABP. Para más información, visita abp.io."
+    "LongWelcomeMessage": "Bienvenido a la aplicación, este es un proyecto base basado en el framework ABP. Para más información, visita abp.io.",
+    "Permission:userDetail": "userDetail",
+    "Permission:Create": "Create",
+    "Permission:Update": "Update",
+    "Permission:Delete": "Delete",
+    "Menu:userDetail": "MenuuserDetail",
+    "userDetail": "userDetail",
+    "userDetailCustomerName": "userDetailCustomerName",
+    "userDetailGender": "userDetailGender",
+    "userDetailEmailId": "userDetailEmailId",
+    "userDetailDate": "userDetailDate",
+    "userDetailLocation": "userDetailLocation",
+    "userDetailType": "userDetailType",
+    "userDetailPhoneNo": "userDetailPhoneNo",
+    "CreateuserDetail": "CreateuserDetail",
+    "EdituserDetail": "EdituserDetail",
+    "userDetailDeletionConfirmationMessage": "Are you sure to delete the userDetail {0}?",
+    "SuccessfullyDeleted": "Successfully deleted"
   }
 }

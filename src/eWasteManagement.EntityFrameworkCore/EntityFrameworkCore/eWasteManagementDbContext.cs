@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
 using Volo.Abp.Data;
@@ -12,6 +12,8 @@ using Volo.Abp.PermissionManagement.EntityFrameworkCore;
 using Volo.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.TenantManagement;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
+using eWasteManagement.UserDetail;
+using Volo.Abp.EntityFrameworkCore.Modeling;
 
 namespace eWasteManagement.EntityFrameworkCore;
 
@@ -51,6 +53,7 @@ public class eWasteManagementDbContext :
     public DbSet<TenantConnectionString> TenantConnectionStrings { get; set; }
 
     #endregion
+        public DbSet<userDetail> userDetails { get; set; }
 
     public eWasteManagementDbContext(DbContextOptions<eWasteManagementDbContext> options)
         : base(options)
@@ -81,5 +84,15 @@ public class eWasteManagementDbContext :
         //    b.ConfigureByConvention(); //auto configure for the base class props
         //    //...
         //});
+
+
+            builder.Entity<userDetail>(b =>
+            {
+                b.ToTable(eWasteManagementConsts.DbTablePrefix + "userDetails", eWasteManagementConsts.DbSchema);
+                b.ConfigureByConvention(); 
+                
+
+                /* Configure more properties here */
+            });
     }
 }
